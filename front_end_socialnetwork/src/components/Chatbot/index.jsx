@@ -5,7 +5,7 @@ import { Close, Comment } from '@mui/icons-material';
 
 const key = ""
 
-const apiUrl = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key=`
+const apiUrl = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key=${key}`
 
 const Chatbot = () => {
     const [isOpen, setIsOpen] = useState(false);
